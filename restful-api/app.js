@@ -4,7 +4,7 @@ const morgan = require("morgan");
 const bodyParser = require("body-parser");
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://testuser:teste123@ammocluster-zcqdy.mongodb.net/test?retryWrites=true',
+mongoose.connect('mongodb://admin:teste123@ds121955.mlab.com:21955/heroku_xmf9qgz4',
 );
 
 app.use(morgan("dev"));
